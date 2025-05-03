@@ -1,4 +1,4 @@
-# CODSHOFT
+# LANDING PAGE
 Welcome to my Landing Page project! This is a beginner-level web development project designed to apply and improve my HTML and CSS skills. It features a clean, responsive layout with sections, columns, headers, footers, and thoughtful design elements.
 
 🚀 Project Overview
