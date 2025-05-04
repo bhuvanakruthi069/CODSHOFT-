@@ -1,0 +1,79 @@
+//HOME PAGE//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Quiz Maker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Welcome to Online Quiz Maker</h1>
+  <a href="login.html">Login</a> | <a href="register.html">Register</a><br><br>
+  <a href="create-quiz.html">Create a Quiz</a><br>
+  <a href="quizzes.html">Take a Quiz</a>
+</body>
+</html>
+//CREATING A QUIZ//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Create a New Quiz</h1>
+  <form>
+    <label>Quiz Title:</label><br>
+    <input type="text" name="quiz_title" required><br><br>
+
+    <div id="questions">
+      <div class="question-block">
+        <label>Question 1:</label><br>
+        <input type="text" name="question1" required><br>
+        <label>Options:</label><br>
+        <input type="text" name="q1opt1" placeholder="Option A"><br>
+        <input type="text" name="q1opt2" placeholder="Option B"><br>
+        <input type="text" name="q1opt3" placeholder="Option C"><br>
+        <input type="text" name="q1opt4" placeholder="Option D"><br>
+        <label>Correct Answer:</label><br>
+        <select name="q1correct">
+          <option value="1">Option A</option>
+          <option value="2">Option B</option>
+          <option value="3">Option C</option>
+          <option value="4">Option D</option>
+        </select><br><br>
+      </div>
+    </div>
+
+    <!-- In full version, use JS to dynamically add more questions -->
+    <button type="submit">Save Quiz</button>
+  </form>
+</body>
+</html>
+//LIST OF QUIZES//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Available Quizzes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Available Quizzes</h1>
+  <ul>
+    <li><a href="take-quiz.html">General Knowledge Quiz</a></li>
+    <li><a href="take-quiz.html">Mathematics Quiz</a></li>
+  </ul>
+</body>
+</html>
+//RESULT//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Result</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Your Results</h1>
+  <p>You scored: 8 out of 10</p>
+  <a href="quizzes.html">Take Another Quiz</a>
+</body>
+</html>
