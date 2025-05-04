@@ -1,0 +1,9 @@
+//PHP DIRECTORY//
+job-portal/
+│
+├── apply.html
+├── submit-application.php   ← Handles form
+├── uploads/                 ← Where resumes are saved
+├── applications.txt         ← Stores application logs
+├── styles.css
+├── script.js
