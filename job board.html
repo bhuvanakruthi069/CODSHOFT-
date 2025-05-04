@@ -1,0 +1,102 @@
+//HOME PAGE//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Portal - Home</title>
+</head>
+<body>
+  <h1>Welcome to Our Job Portal</h1>
+
+  <h2>Featured Jobs</h2>
+  <ul>
+    <li><a href="job-detail.html">Software Engineer at Techcoding</a></li>
+    <li><a href="job-detail.html">Marketing Specialist at Marketreal</a></li>
+  </ul>
+
+  <a href="job-listings.html">View All Jobs</a>
+</body>
+</html>
+//JOB LISTING PAGE//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Listings</title>
+</head>
+<body>
+  <h1>Available Job Openings</h1>
+
+  <input type="text" placeholder="Search jobs..." />
+  <button>Search</button>
+
+  <ul>
+    <li><a href="job-detail.html">Frontend Developer – WebSolutions</a></li>
+    <li><a href="job-detail.html">Data Analyst – DataMinds</a></li>
+  </ul>
+</body>
+</html>
+//JOB DETAILING PAGE//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Details</title>
+</head>
+<body>
+  <h1>Frontend Developer at WebSolutions</h1>
+  <p><strong>Location:</strong> Remote</p>
+  <p><strong>Type:</strong> Full-time</p>
+  <p><strong>Description:</strong> We are looking for a skilled frontend developer...</p>
+
+  <a href="apply.html">Apply Now</a>
+</body>
+</html>
+//JOB APPLICATION FORM//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Apply for Job</title>
+</head>
+<body>
+  <h1>Job Application</h1>
+
+  <form action="submit-application" method="POST" enctype="multipart/form-data">
+    <label>Your Name:</label><br />
+    <input type="text" name="name" required /><br /><br />
+
+    <label>Email:</label><br />
+    <input type="Email_address" name="Email_address" required /><br /><br />
+
+    <label>Upload Resume:</label><br />
+    <input type="file" name="Resume" accept=".pdf,.doc,.docx" /><br /><br />
+
+    <input type="submit" value="Submit Application" />
+  </form>
+</body>
+</html>
+//EMPLOYER DASHBOARD//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employer Dashboard</title>
+</head>
+<body>
+  <h1>Welcome, Employer</h1>
+
+  <a href="post-job.html">Post a New Job</a><br />
+  <a href="job-listings.html">Manage Job Listings</a>
+</body>
+</html>
+//CANDIDATE DASHBOARD//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Dashboard</title>
+</head>
+<body>
+  <h1>Welcome, Candidate</h1>
+
+  <a href="profile.html">Edit Profile</a><br />
+  <a href="applications.html">My Applications</a>
+</body>
+</html>
+
+
